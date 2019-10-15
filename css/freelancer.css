@@ -6205,7 +6205,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  /* !background-color: #1abc9c !important; */
+  background: url('../img/0071_ML--Lipidomics--Plot-Network-Short-Function-Gray56-Bg-Black-1--191014c--dark67-2k_px.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 1;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9361,6 +9367,20 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+}
+
+.text-white-with-bg {
+  color: #fff !important;
+  background-color: black;
+}
+
+.text-black {
+  color:black !important;
+}
+
+.text-black-opaque {
+  color:black !important;
+  opacity: 1;
 }
 
 .text-primary {
