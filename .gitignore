@@ -2,3 +2,4 @@ node_modules
 .Rproj.user
 img/old/*
 .Rhistory
+.Rproj
